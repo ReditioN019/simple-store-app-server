@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 
-app.use(productsRoutes);
-app.use(categoriesRoutes);
+app.use('/v1/api', productsRoutes);
+app.use('/v1/api/', categoriesRoutes);
 
 
 const PORT = process.env.PORT || 4000
