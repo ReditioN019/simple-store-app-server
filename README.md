@@ -2,7 +2,8 @@
 
 Aplicación fullstack simple, que visualiza productos obtenidos desde una base de de datos. Permite la búsqueda, el filtro de productos por categoría y el ordenamiento de dichos productos.
 
-[Demo de la aplicación](http://obsidian.md/)
+[Demo productos ](https://srojo-simple-store-app.herokuapp.com/v1/api/products) 
+[Demo categorías ](https://srojo-simple-store-app.herokuapp.com/v1/api/category) 
 
 ## Pasos para clonar y hacer funcionar la aplicación:
 1) Clonar proyecto: ```git clone https://github.com/ReditioN019/simple_store_fullstack```
